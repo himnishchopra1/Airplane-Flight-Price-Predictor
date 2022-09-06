@@ -38,7 +38,6 @@ Travellers can consider this graph when deciding which airline they want to fly 
 
 The Coefficient of Determination-R2 score was used to evaluate the models built in this project. This was the preferred method of evalution because it is the amount of the variation in the output dependent attribute which is predictable from the input independent variables. This is better as it can be observed what flight characteristics (destination, airline, source,etc) have the biggest impact on flight price and what specific flight options travellers should look for to get the cheapest flight possible for themselves.
 
-The Cat Boost Regressor resulted in a 83 % R2 score meaning 83 % of the variability of the target can be explained by the model. This was the best performing model out of all the models.
+The Cat Boost Regressor resulted in a 83 % R2 score. This means when the traveller enters the Airline, Source, Destination, and Total Stops into this model it can predict the price of a flight with 83% of the variability of the price being explained by the model. This was the best performing model out of all the models. 
 
-Based on the analysis and model it was determined that the most important features that determine the price of a airplane flight is the Airline, Source, and Destination. 
 
